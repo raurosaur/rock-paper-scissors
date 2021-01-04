@@ -85,9 +85,13 @@ img{
 }
 
 .status-bar{
+    display: flex;
     background:  #B8F642;
     color: #120E1E;
     width: 600px;
     height: 5em;
     border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
