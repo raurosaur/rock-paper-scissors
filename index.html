@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <style>
-        h1{
-            position: absolute;
-            padding-top: 50vh;
-            padding-left: 50vw;
-        }
-    </style>
+    <link rel = 'stylesheet' href = 'index.css'>
 </head>
 <body>
-    <h1> Rock Paper Scissors</h1>
-    <script src = 'index.js'></script>
+    <div class = 'round'> Round <span id = 'round'>1</span></div>
+    <div class = 'head'>Rock, Paper, Scissors!</div>
+    <div class = 'options'>
+        <div class="images"><img id = 'rock' src = 'Rock.png' alt = 'Rock'></div>
+        <div class="images"><img id = 'paper'src = 'paper.png' alt = 'Paper'></div>
+        <div class="images"><img id = 'scissors' src = 'Scissors.png' alt = 'Scissors'></div>
+    </div>
+    <div class = 'footer-container'>
+        <div class = 'score'>Player
+            <div id = 'playerScore'>0</div>
+        </div>
+        <div class="status-bar"></div>
+        <div class = 'score'>Computer
+            <div id='compScore'>0</div>
+        </div>
+    </div>
 </body>
+<script src="rps.js"></script>
 </html>
