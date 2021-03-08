@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../src/images/logo.svg"
+      type="image/x-icon"
+    />
+    <script src="./dist/main.js" defer></script>
+    <title>Rock Paper Scissors</title>
+    <script>
+      // const circ = document.createElement("div");
+      // circ.className = "onload";
+      function onLoadHandler() {
+        // body.append(circ);
+      }
+    </script>
+  </head>
+  <body onload="onLoadHandler">
+    <header>
+      <img src="./src/images/logo.svg" alt="logo" />
+      <div>
+        SCORE <br />
+        <span id="score">0</span>
+      </div>
+    </header>
+    <main class="landing" >
+      <img id="tg" src="./src/images/bg-triangle.svg" alt="bg-triangle" />
+      <div class="paper">
+        <img src="./src/images/icon-paper.svg" alt="icons" />
+      </div>
+      <div class="rock">
+        <img src="./src/images/icon-rock.svg" alt="icons" />
+      </div>
+      <div class="scissors">
+        <img src="./src/images/icon-scissors.svg" alt="icons" />
+      </div>
+    </main>
+    <main class="play  d-none">
+      <div class="player paper">
+        <img src="./src/images/icon-paper.svg" alt="icons" />
+      </div>
+      <div class="comp blank">
+        <img src="" alt="icons" />
+      </div>
+      <aside class = "status">
+        <p>YOU <span>WIN</span></p>
+      <button> PLAY AGAIN</button>
+      </aside>
+    </main>
+    <section>
+      <button>Rules</button>
+    </section>
+    <section class="modal hide" >
+      <h1>RULES</h1>
+      <img src="src/images/icon-close.svg" />
+      <img src="src/images/image-rules.svg" />
+    </section>
+  </body>
+</html>
