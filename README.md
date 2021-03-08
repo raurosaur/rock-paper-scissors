@@ -15,4 +15,4 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 IE support is unknown. It may or may not work there.
 
 ### Live Link
-[Click Here!](https://raurosaur.github.io/rock-paper-scissors)
+[Click Here!](https://raurosaur.github.io/rock-paper-scissors/index.html)
