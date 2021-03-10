@@ -149,6 +149,7 @@ section.modal {
   border-radius: 15px;
   box-shadow: 0 0 8em 0.5em #000;
   transition: opacity 250ms ease-out;
+  margin: 0;
 }
 
 .hide {
@@ -257,7 +258,7 @@ section.modal > *:focus {
     margin-right: 0.2em;
   }
   section.modal {
-    height: 65%;
+    height: fit-content;
     width: 30%;
   }
   main.play {
@@ -269,5 +270,12 @@ section.modal > *:focus {
   }
   section{
     margin-top: 1.5em;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 900px){
+  section.modal{
+    height: 21.875em;
+    width: 23.125em;
   }
 }
