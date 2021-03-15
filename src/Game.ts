@@ -2,7 +2,7 @@ interface RPS {
   player: number[];
 }
 export const spr = ["scissors", "paper", "rock"];
-export const src = spr.map((el) => `../tree/main/src/images/icon-${el}.svg`);
+export const src = spr.map((el) => `./src/images/icon-${el}.svg`);
 
 class Game implements RPS {
   playerScore = 0;
