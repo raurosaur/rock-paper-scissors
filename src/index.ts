@@ -52,6 +52,12 @@ function toggleScreen() {
   document.querySelector("main.landing").classList.toggle("d-none");
   playScreen.classList.toggle("d-none");
 }
+setTimeout(() => {
+(document.querySelector("#onload") as HTMLDivElement).style.opacity = "0";
+}, 2000)
+setTimeout(() => {
+  (document.querySelector("#onload") as HTMLDivElement).style.display = "none";
+}, 1500);
 /*****************************Event Listeners****************************/
 //Show/Hide Rules
 modal_close.addEventListener("click", toggleRules);
